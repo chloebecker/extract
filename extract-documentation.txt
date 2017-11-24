@@ -1,0 +1,29 @@
+Extract Documentation
+Amalia Alcantar and Chloe Becker 
+
+-------------------------------------------------------------
+Purpose of Extract:
+
+-------------------------------------------------------------
+How to program in Extract:
+
+-------------------------------------------------------------
+Extract dictionary:
+***NOTES: -> denotes the return type, NUM denotes a number, 
+INT denotes an integer, STR denotes a string, and _ denotes 
+anything (integer, string, boolean, etc.)***
+
+pour NUM NUM -> NUM - addition 
+pull NUM NUM -> NUM - subtraction 
+filter NUM NUM -> NUM - division 
+scoop NUM NUM -> NUM - modulus  
+grind NUM NUM -> NUM - multiplication 
+brew(_)  -> void - print
+(|) - comment
+stir STR STR -> STR - string concat. 
+price(STR) -> INT - returns the length of a string
+lightRoast(NUM) -> Boolean - returns true if the number is negative 
+darkRoast(NUM) -> Boolean - returns true if the number is positive 
+makeLatte(NUM) -> NUM - returns a factorial 
+roast(NUM, NUM) -> NUM - returns a random number between two numbers 
+new _ -> void - creates a new variable
