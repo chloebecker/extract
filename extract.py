@@ -21,12 +21,15 @@ def GetText(fileName) :
 def Main():
     GetText("sample")
     #go through each word/item in the list
-    for item in content:
+    index = 0
+    while index < content.len():
+        item = content[index]
         #if it's equal to something in the dictionary, proceed
         if item in extract:
-            # a bunch of ifelse blocks for the functions like so:
-            # if word = pour
-                # push the next two values onto the 
+            if item == "pull":
+                quotient = content[index+1] - content[index+2]
+                index += 2
+            
         #else, return error: "Error: *word* is not a valid function call."
         else: 
             print("Error: "+item+" is not a valid function call.")
