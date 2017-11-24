@@ -19,7 +19,7 @@ filter NUM NUM -> NUM - division
 scoop NUM NUM -> NUM - modulus  
 grind NUM NUM -> NUM - multiplication 
 brew _  -> void - print
-(|) (|) - comment
+(|) (|) - comment *word limit is 100*
 stir STR STR -> STR - string concat. 
 price STR -> INT - returns the length of a string
 roasted NUM -> Boolean - returns true if the number is positive 
