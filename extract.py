@@ -27,7 +27,10 @@ def Main():
         #if it's equal to something in the dictionary, proceed
         if item in extract:
             if item == "pull":
+                #subtract, ie: [...,pull,10,2,pull,...] -> 10 - 2 -> will set quotient = 8 
+                #       then move on to next function (which is another pull in this case)
                 quotient = content[index+1] - content[index+2]
+                #move on to next function call in content
                 index += 2
             
         #else, return error: "Error: *word* is not a valid function call."
