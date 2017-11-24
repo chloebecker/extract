@@ -7,7 +7,6 @@ brew "hello"
 (|) this coffee bean is a comment! (|)
 stir "hello" "world"
 price "hello"
-lightRoast -10
-darkRoast 10
+roasted 10
 makeLatte 3
 roast 0 3

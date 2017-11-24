@@ -18,12 +18,11 @@ pull NUM NUM -> NUM - subtraction
 filter NUM NUM -> NUM - division 
 scoop NUM NUM -> NUM - modulus  
 grind NUM NUM -> NUM - multiplication 
-brew(_)  -> void - print
-(|) - comment
+brew _  -> void - print
+(|) (|) - comment
 stir STR STR -> STR - string concat. 
-price(STR) -> INT - returns the length of a string
-lightRoast(NUM) -> Boolean - returns true if the number is negative 
-darkRoast(NUM) -> Boolean - returns true if the number is positive 
-makeLatte(NUM) -> NUM - returns a factorial 
-roast(NUM, NUM) -> NUM - returns a random number between two numbers 
+price STR -> INT - returns the length of a string
+roasted NUM -> Boolean - returns true if the number is positive 
+makeLatte NUM -> NUM - returns a factorial 
+roast NUM NUM -> NUM - returns a random number between two numbers 
 new _ -> void - creates a new variable
